@@ -1,1 +1,5 @@
-# billing-react-shadcn-poc
+# run locally
+```
+npm i
+npm run dev
+```
