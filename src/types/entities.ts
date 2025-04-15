@@ -26,7 +26,8 @@ export interface Visit {
 }
 
 export interface ServiceRate {
-  a: string
+  identifier: { value: string }[]
+  code: { coding: { code: string }[] }
 }
 
 export interface DynamicRateUnit {

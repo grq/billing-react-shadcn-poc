@@ -4,6 +4,7 @@ export const filters: DataTableFilter[] = [{
   title: 'Dates',
   column: 'start',
   type: 'daterange',
+  queryKey: ['date-from', 'date-to'],
   from: 'date-from',
   to: 'date-to'
 }, {

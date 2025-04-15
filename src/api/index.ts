@@ -81,7 +81,7 @@ export const fetchServiceRates = async (): Promise<ServiceRate[]> => {
   const body = {
     method: 'billing.rpc/get-rates',
     params: {
-      'as-of-date': '2025-02-11'
+      'as-of-date': '2025-02-12'
     }
   }
 

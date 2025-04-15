@@ -2,12 +2,7 @@
 import { ColumnDef } from '@tanstack/react-table'
 
 import { Checkbox } from '@/components/ui/checkbox'
-
-interface ServiceRate {
-  identifier: { value: string }[]
-  code: { coding: { code: string }[] }
-}
-
+import { ServiceRate } from '@/types/entities'
 
 export const columns: ColumnDef<ServiceRate>[] = [
   {

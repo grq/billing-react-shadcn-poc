@@ -38,6 +38,7 @@ export interface DataTableFilter {
   options?: FilterOption[]
   from?: string
   to?: string
+  queryKey?: string[]
 }
 
 export interface DataTablePagination {
